@@ -39,7 +39,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
 
-━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
 

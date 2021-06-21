@@ -38,7 +38,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
+
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -53,12 +53,12 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
-                    InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
-                ],[
-                    InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "💬 Channel Updates", url=f"https://t.me/akarida"), 
+
+
+
+
+
                 ]
             ]
         ),
@@ -95,26 +95,26 @@ def map(pos):
             [InlineKeyboardButton(text = 'Next »', callback_data = "help+2")]
         ]
     elif pos==len(tr.HELP_MSG)-1:
-        url = f"https://t.me/{SUPPORT_GROUP}"
+        url = f"https://t.me/akarida"
         return [
             [
                 InlineKeyboardButton(
                     "➕ Tambahkan saya ke Grup Anda ➕",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/AkaridaMusic_bot?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
                     text='💬 Channel Updates',
-                    url=f"https://t.me/{UPDATES_CHANNEL}",
-                ),
-                InlineKeyboardButton(
-                    text='⛑ Group Support', url=f"https://t.me/{SUPPORT_GROUP}"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text='🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}"
+                    url=f"ttps://t.me/akarida}",
+
+        
+ 
+
+
+
+
+
                 )
             ],
             [InlineKeyboardButton(text='«', callback_data=f"help+{pos-1}")],
@@ -183,10 +183,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "support", url=f"https://t.me/akarida_bot}"
                     ),
-                    InlineKeyboardButton(
-                        "Owner", url=f"https://t.me/mrismanaziz"
+
+
                     )
                 ]
             ]
